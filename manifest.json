@@ -1,0 +1,32 @@
+{
+    "files": {
+        "README.md": "d3ae28000bf022f60910c6fe53bd975904f27c7e49a77f429e298be1f4d84e31",
+        "config.json": {
+            "overwrite": false,
+            "hash": "45071a5610031cda1a6573bd4848044fdbc65646dffedad0e70cb8f8576a60a1"
+        },
+        "index.js": "4720f33aeaf46c68ed0fcdf8e537af6b44b3dceebc28f597303b8c9d284a5ef6",
+        "module.json": "812f242baefff925d469b911f2ea0084cc0952f225c72d19a27181c19f86bf29",
+        "skills.json": "beac35344e696455c968ecaeadb23d8876a172e2e334250a22164eb2c90ca5e5"
+    },
+    "defs": {
+        "C_NOTIFY_LOCATION_IN_ACTION": "*",
+        "C_PLAYER_LOCATION": "*",
+        "C_PRESS_SKILL": "raw",
+        "C_REQUEST_GAMESTAT_PING": 1,
+        "C_START_COMBO_INSTANT_SKILL": "raw",
+        "C_START_INSTANCE_SKILL": "raw",
+        "C_START_INSTANCE_SKILL_EX": "raw",
+        "C_START_SKILL": "raw",
+        "C_START_TARGETED_SKILL": "raw",
+        "S_ACTION_END": "*",
+        "S_ACTION_STAGE": "*",
+        "S_INSTANT_DASH": "*",
+        "S_INSTANT_MOVE": "*",
+        "S_LOAD_TOPO": "event",
+        "S_RESPONSE_GAMESTAT_PONG": 1,
+        "S_RETURN_TO_LOBBY": "event",
+        "S_SPAWN_ME": "event",
+        "S_START_COOLTIME_SKILL": "*"
+    }
+}

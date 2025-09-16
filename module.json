@@ -1,0 +1,14 @@
+{
+    "servers": ["https://raw.githubusercontent.com/EricBanker12/Ping-Compensation-Classic/master/"],
+    "supportUrl": "https://github.com/EricBanker12/Ping-Compensation-Classic/issues",
+    "disableAutoUpdate": false,
+    "name": "ping-compensation",
+    "author": "Kourinn",
+    "description": "Gives you fake attack speed to eliminate ping tax between skills.",
+    "version": "1.0.0",
+    "options": {
+        "cliName": "PC",
+        "guiName": "Ping Compensation (Classic)"
+    },
+    "keywords": ["network"]
+}

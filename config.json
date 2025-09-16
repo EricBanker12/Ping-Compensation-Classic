@@ -1,0 +1,1309 @@
+{
+  "Settings": {
+    "PingInterval": 4000,
+    "PingHistory": 30,
+    "PingOffset": 0,
+    "RetryCount": 3,
+    "RetryDelay": 25,
+    "NoRetryDelay": 50,
+    "RetryTimeout": 100,
+    "RubberBandDistance": 300,
+    "SkillPrediciton": false
+  },
+  "Warrior": {
+    "1": {
+      "0": true,
+      "1": true,
+      "2": true,
+      "3": true,
+      "name": "Combo Attack"
+    },
+    "2": {
+      "0": true,
+      "name": "Evasive Roll"
+    },
+    "3": {
+      "0": true,
+      "name": "Torrent of Blows"
+    },
+    "4": {
+      "0": true,
+      "30": true,
+      "name": "Rain of Blows"
+    },
+    "5": {
+      "0": true,
+      "name": "Battle Cry"
+    },
+    "8": {
+      "0": true,
+      "50": true,
+      "name": "Assault Stance"
+    },
+    "9": {
+      "0": true,
+      "50": true,
+      "name": "Defensive Stance"
+    },
+    "10": {
+      "0": true,
+      "name": "Death From Above"
+    },
+    "11": {
+      "0": true,
+      "name": "Poison Blade"
+    },
+    "12": {
+      "0": true,
+      "name": "Leaping Strike"
+    },
+    "13": {
+      "0": true,
+      "name": "Retaliate"
+    },
+    "14": {
+      "0": true,
+      "50": true,
+      "name": "Mangle"
+    },
+    "16": {
+      "0": true,
+      "1": true,
+      "name": "Charging Slash"
+    },
+    "17": {
+      "0": true,
+      "name": "Vortex Slash"
+    },
+    "18": {
+      "0": true,
+      "name": "Combative Strike"
+    },
+    "19": {
+      "0": true,
+      "1": true,
+      "name": "Rising Fury"
+    },
+    "20": {
+      "0": true,
+      "name": "Deadly Gamble"
+    },
+    "21": {
+      "0": true,
+      "name": "Cascade of Stuns"
+    },
+    "22": {
+      "0": false,
+      "name": "Backstab"
+    },
+    "23": {
+      "0": true,
+      "name": "Staggering Counter"
+    },
+    "24": {
+      "0": true,
+      "name": "Smoke Aggressor"
+    },
+    "25": {
+      "0": true,
+      "name": "Command: Attack"
+    },
+    "26": {
+      "0": true,
+      "name": "Command: Follow"
+    },
+    "27": {
+      "0": true,
+      "name": "Pounce"
+    },
+    "28": {
+      "0": true,
+      "30": true,
+      "name": "Traverse Cut"
+    },
+    "29": {
+      "0": true,
+      "30": true,
+      "name": "Blade Draw"
+    },
+    "30": {
+      "0": true,
+      "30": true,
+      "name": "Scythe"
+    },
+    "31": {
+      "0": true,
+      "30": true,
+      "name": "Reaping Slash"
+    },
+    "32": {
+      "0": false,
+      "name": "Cross Parry"
+    },
+    "33": {
+      "0": false,
+      "name": "Smoke Flanker"
+    },
+    "34": {
+      "0": true,
+      "30": true,
+      "name": "Binding Sword"
+    }
+  },
+  "Lancer": {
+    "1": {
+      "0": true,
+      "1": true,
+      "2": true,
+      "name": "Combo Attack"
+    },
+    "2": {
+      "0": false,
+      "name": "Stand Fast"
+    },
+    "3": {
+      "0": true,
+      "30": true,
+      "name": "Onslaught"
+    },
+    "4": {
+      "0": true,
+      "name": "Challenging Shout"
+    },
+    "5": {
+      "0": true,
+      "name": "Shield Bash"
+    },
+    "7": {
+      "0": true,
+      "name": "Guardian Shout"
+    },
+    "8": {
+      "0": true,
+      "name": "Shield Counter"
+    },
+    "9": {
+      "0": true,
+      "name": "Leash"
+    },
+    "10": {
+      "0": true,
+      "name": "Debilitate"
+    },
+    "11": {
+      "0": true,
+      "name": "Retaliate"
+    },
+    "12": {
+      "0": true,
+      "name": "Infuriate"
+    },
+    "13": {
+      "0": true,
+      "30": true,
+      "name": "Spring Attack"
+    },
+    "15": {
+      "0": true,
+      "1": true,
+      "name": "Charging Lunge"
+    },
+    "16": {
+      "0": true,
+      "name": "Second Wind"
+    },
+    "17": {
+      "0": true,
+      "name": "Adrenaline Rush"
+    },
+    "18": {
+      "0": true,
+      "1": true,
+      "name": "Shield Barrage"
+    },
+    "19": {
+      "0": true,
+      "name": "Pledge of Protection"
+    },
+    "20": {
+      "0": true,
+      "name": "Menacing Wave"
+    },
+    "21": {
+      "0": true,
+      "name": "Lockdown Blow"
+    },
+    "22": {
+      "0": true,
+      "name": "Iron Will"
+    },
+    "23": {
+      "0": true,
+      "name": "Master's Leash"
+    },
+    "24": {
+      "0": true,
+      "name": "Chained Leash"
+    },
+    "25": {
+      "0": true,
+      "30": true,
+      "name": "Wallop"
+    },
+    "26": {
+      "0": true,
+      "name": "Backstep"
+    },
+    "27": {
+      "0": true,
+      "name": "Rallying Cry"
+    }
+  },
+  "Slayer": {
+    "1": {
+      "0": true,
+      "1": true,
+      "2": true,
+      "3": true,
+      "name": "Combo Attack"
+    },
+    "2": {
+      "0": true,
+      "name": "Knockdown Strike"
+    },
+    "3": {
+      "0": true,
+      "name": "Whirlwind"
+    },
+    "4": {
+      "0": true,
+      "30": true,
+      "name": "Evasive Roll"
+    },
+    "5": {
+      "0": true,
+      "name": "Dash"
+    },
+    "6": {
+      "0": false,
+      "name": "Backstab"
+    },
+    "7": {
+      "0": true,
+      "name": "Triumphant Shout"
+    },
+    "8": {
+      "0": true,
+      "30": true,
+      "name": "Overhand Strike"
+    },
+    "9": {
+      "0": true,
+      "name": "Leaping Strike"
+    },
+    "10": {
+      "0": true,
+      "name": "Retaliate"
+    },
+    "12": {
+      "0": true,
+      "name": "Heart Thrust"
+    },
+    "13": {
+      "0": true,
+      "name": "Stunning Backhand"
+    },
+    "14": {
+      "0": true,
+      "1": true,
+      "2": true,
+      "name": "Distant Blade"
+    },
+    "15": {
+      "0": true,
+      "name": "Startling Kick"
+    },
+    "16": {
+      "0": true,
+      "name": "Fury Strike"
+    },
+    "17": {
+      "0": true,
+      "name": "Headlong Rush"
+    },
+    "18": {
+      "0": true,
+      "name": "Overpower"
+    },
+    "19": {
+      "0": true,
+      "name": "Tenacity"
+    },
+    "20": {
+      "0": true,
+      "name": "In Cold Blood"
+    },
+    "21": {
+      "0": true,
+      "name": "Exhausting Blow"
+    },
+    "23": {
+      "0": true,
+      "30": true,
+      "name": "Measured Slice"
+    },
+    "24": {
+      "0": true,
+      "30": true,
+      "name": "Eviscerate"
+    },
+    "25": {
+      "0": true,
+      "30": true,
+      "name": "Ultimate Overhand Strike"
+    }
+  },
+  "Berserker": {
+    "1": {
+      "0": true,
+      "1": true,
+      "2": true,
+      "3": true,
+      "name": "Combo Attack"
+    },
+    "2": {
+      "0": false,
+      "name": "Axe Block"
+    },
+    "3": {
+      "0": false,
+      "10": true,
+      "11": true,
+      "12": true,
+      "13": true,
+      "name": "Thunder Strike"
+    },
+    "4": {
+      "0": true,
+      "30": true,
+      "name": "Flatten"
+    },
+    "5": {
+      "0": true,
+      "name": "Dash"
+    },
+    "6": {
+      "0": true,
+      "name": "Staggering Strike"
+    },
+    "7": {
+      "0": true,
+      "name": "Mocking Shout"
+    },
+    "8": {
+      "0": true,
+      "name": "Fiery Rage"
+    },
+    "9": {
+      "0": true,
+      "name": "Triumphant Shout"
+    },
+    "10": {
+      "0": false,
+      "10": true,
+      "11": true,
+      "12": true,
+      "13": true,
+      "name": "Cyclone"
+    },
+    "11": {
+      "0": true,
+      "name": "Leaping Strike"
+    },
+    "12": {
+      "0": true,
+      "name": "Unchained Anger"
+    },
+    "13": {
+      "0": true,
+      "name": "Retaliate"
+    },
+    "15": {
+      "0": false,
+      "10": true,
+      "11": true,
+      "12": true,
+      "13": true,
+      "14": true,
+      "name": "Vampiric Blow"
+    },
+    "16": {
+      "0": true,
+      "name": "Fearsome Shout"
+    },
+    "17": {
+      "0": true,
+      "name": "Flurry of Blows"
+    },
+    "18": {
+      "0": false,
+      "10": true,
+      "11": true,
+      "12": true,
+      "13": true,
+      "name": "Lethal Strike"
+    },
+    "19": {
+      "0": true,
+      "name": "Tenacity"
+    },
+    "20": {
+      "0": true,
+      "name": "Inescapable Doom"
+    },
+    "21": {
+      "0": true,
+      "name": "Bloodlust"
+    },
+    "24": {
+      "0": true,
+      "5": false,
+      "10": true,
+      "11": true,
+      "12": true,
+      "13": true,
+      "name": "Evasive Smash"
+    },
+    "25": {
+      "0": true,
+      "30": true,
+      "name": "Raze"
+    },
+    "26": {
+      "0": true,
+      "name": "Tackle"
+    },
+    "27": {
+      "0": true,
+      "name": "Unbreakable"
+    }
+  },
+  "Sorcerer": {
+    "1": {
+      "0": true,
+      "name": "Fireball"
+    },
+    "2": {
+      "0": true,
+      "name": "Ice Needle"
+    },
+    "3": {
+      "0": true,
+      "name": "Lightning Trap"
+    },
+    "4": {
+      "0": false,
+      "10": true,
+      "11": true,
+      "12": true,
+      "13": true,
+      "name": "Arcane Pulse"
+    },
+    "5": {
+      "0": true,
+      "name": "Mana Infusion"
+    },
+    "6": {
+      "0": true,
+      "name": "Fireblast"
+    },
+    "7": {
+      "0": true,
+      "name": "Backstep"
+    },
+    "8": {
+      "0": true,
+      "name": "Flame Pillar"
+    },
+    "9": {
+      "0": true,
+      "name": "Overchannel"
+    },
+    "10": {
+      "0": true,
+      "name": "Mana Barrier"
+    },
+    "11": {
+      "0": true,
+      "40": true,
+      "name": "Magma Bomb"
+    },
+    "12": {
+      "0": true,
+      "name": "Void Pulse"
+    },
+    "13": {
+      "0": true,
+      "name": "Mindblast"
+    },
+    "14": {
+      "0": true,
+      "name": "Retaliate"
+    },
+    "16": {
+      "0": true,
+      "name": "Painblast"
+    },
+    "17": {
+      "0": true,
+      "name": "Painful Trap"
+    },
+    "18": {
+      "0": true,
+      "name": "Glacial Retreat"
+    },
+    "19": {
+      "0": false,
+      "10": true,
+      "11": true,
+      "12": true,
+      "13": true,
+      "name": "Mana Siphon"
+    },
+    "20": {
+      "0": false,
+      "10": true,
+      "name": "Flaming Barrage"
+    },
+    "21": {
+      "0": false,
+      "10": true,
+      "name": "Nerve Exhaustion"
+    },
+    "22": {
+      "0": false,
+      "10": true,
+      "name": "Burning Breath"
+    },
+    "23": {
+      "0": false,
+      "10": true,
+      "name": "Mana Volley"
+    },
+    "24": {
+      "0": true,
+      "name": "Burst of Celerity"
+    },
+    "25": {
+      "0": false,
+      "10": true,
+      "name": "Time Gyre"
+    },
+    "26": {
+      "0": false,
+      "name": "Teleport Jaunt"
+    },
+    "27": {
+      "0": true,
+      "name": "Hail Storm"
+    },
+    "28": {
+      "0": true,
+      "50": true,
+      "name": "Stone Skin"
+    },
+    "29": {
+      "0": true,
+      "name": "Vortex Prison"
+    },
+    "30": {
+      "0": true,
+      "name": "Nova"
+    },
+    "31": {
+      "0": true,
+      "name": "Warp Barrier"
+    }
+  },
+  "Archer": {
+    "1": {
+      "0": true,
+      "name": "Arrow"
+    },
+    "2": {
+      "0": false,
+      "10": true,
+      "name": "Arrow Volley"
+    },
+    "3": {
+      "0": false,
+      "10": true,
+      "11": true,
+      "12": true,
+      "13": true,
+      "name": "Radiant Arrow"
+    },
+    "4": {
+      "0": false,
+      "10": true,
+      "11": true,
+      "12": true,
+      "13": true,
+      "name": "Penetrating Arrow"
+    },
+    "5": {
+      "0": true,
+      "name": "Rain of Arrows"
+    },
+    "6": {
+      "0": true,
+      "name": "Backstep"
+    },
+    "7": {
+      "0": true,
+      "name": "Feign Death"
+    },
+    "8": {
+      "0": true,
+      "1": true,
+      "2": true,
+      "3": true,
+      "4": true,
+      "5": true,
+      "6": true,
+      "name": "Rapid Fire"
+    },
+    "9": {
+      "0": true,
+      "name": "Slow Trap"
+    },
+    "10": {
+      "0": true,
+      "name": "Stunning Trap"
+    },
+    "11": {
+      "0": true,
+      "name": "Poison Trap"
+    },
+    "12": {
+      "0": true,
+      "name": "Velik's Mark"
+    },
+    "14": {
+      "0": true,
+      "name": "Retaliate"
+    },
+    "15": {
+      "0": true,
+      "name": "Incendiary Trap"
+    },
+    "16": {
+      "0": true,
+      "name": "Breakaway Bolt"
+    },
+    "17": {
+      "0": true,
+      "name": "Web Arrow"
+    },
+    "18": {
+      "0": true,
+      "1": true,
+      "name": "Close Quarters"
+    },
+    "19": {
+      "0": true,
+      "name": "Poison Arrow"
+    },
+    "20": {
+      "0": true,
+      "name": "Restraining Arrow"
+    },
+    "21": {
+      "0": true,
+      "50": true,
+      "name": "Sniper's Eye"
+    },
+    "22": {
+      "0": true,
+      "1": true,
+      "2": true,
+      "3": true,
+      "4": true,
+      "name": "Final Salvo"
+    },
+    "23": {
+      "0": true,
+      "name": "Concussion Trap"
+    },
+    "24": {
+      "0": true,
+      "name": "Ensnaring Trap"
+    },
+    "25": {
+      "0": true,
+      "name": "Explosion Trap"
+    },
+    "28": {
+      "0": true,
+      "50": true,
+      "name": "Eagle's Eye"
+    },
+    "29": {
+      "0": true,
+      "name": "Thunderbolt"
+    },
+    "31": {
+      "0": true,
+      "name": "Tenacity"
+    }
+  },
+  "Priest": {
+    "1": {
+      "0": true,
+      "1": true,
+      "2": true,
+      "3": true,
+      "name": "Divine Radiance"
+    },
+    "2": {
+      "0": true,
+      "name": "Regeneration Circle"
+    },
+    "3": {
+      "0": true,
+      "name": "Healing Circle"
+    },
+    "5": {
+      "0": true,
+      "name": "Blessing of Shakan"
+    },
+    "6": {
+      "0": true,
+      "name": "Arise"
+    },
+    "8": {
+      "0": true,
+      "name": "Mana Infusion"
+    },
+    "10": {
+      "0": true,
+      "name": "Purifying Circle"
+    },
+    "11": {
+      "0": true,
+      "name": "Metamorphic Blast"
+    },
+    "12": {
+      "0": true,
+      "name": "Resurrect"
+    },
+    "13": {
+      "0": true,
+      "name": "Homeward Bound"
+    },
+    "14": {
+      "0": true,
+      "name": "Summon: Party"
+    },
+    "15": {
+      "0": true,
+      "name": "Blessing of Zenobia"
+    },
+    "16": {
+      "0": true,
+      "name": "Shocking Implosion"
+    },
+    "17": {
+      "0": true,
+      "name": "Prayer of Peace"
+    },
+    "18": {
+      "0": true,
+      "name": "Heal Thyself"
+    },
+    "19": {
+      "0": false,
+      "10": true,
+      "name": "Focus Heal"
+    },
+    "20": {
+      "0": true,
+      "name": "Blessing of Seren"
+    },
+    "21": {
+      "0": true,
+      "name": "Blessing of Arachne"
+    },
+    "22": {
+      "0": true,
+      "name": "Kaia's Shield"
+    },
+    "23": {
+      "0": true,
+      "name": "Blessing of Balder"
+    },
+    "25": {
+      "0": true,
+      "name": "Retaliate"
+    },
+    "26": {
+      "0": true,
+      "name": "Fiery Escape"
+    },
+    "27": {
+      "0": true,
+      "30": true,
+      "name": "Final Reprisal"
+    },
+    "28": {
+      "0": false,
+      "10": true,
+      "11": true,
+      "12": true,
+      "name": "Mana Charge"
+    },
+    "29": {
+      "0": true,
+      "1": true,
+      "2": true,
+      "name": "Triple Nemesis"
+    },
+    "30": {
+      "0": false,
+      "10": true,
+      "name": "Plague of Exhaustion"
+    },
+    "31": {
+      "0": true,
+      "name": "Guardian Sanctuary"
+    },
+    "32": {
+      "0": true,
+      "name": "Divine Respite"
+    },
+    "33": {
+      "0": false,
+      "10": true,
+      "name": "Ishara's Lullaby"
+    },
+    "34": {
+      "0": true,
+      "name": "Restorative Burst"
+    },
+    "35": {
+      "0": false,
+      "10": true,
+      "name": "Energy Stars"
+    },
+    "36": {
+      "0": true,
+      "name": "Epiphany of the Goddess"
+    },
+    "37": {
+      "0": false,
+      "10": true,
+      "name": "Healing Immersion"
+    },
+    "38": {
+      "0": true,
+      "name": "Backstep"
+    },
+    "39": {
+      "0": true,
+      "name": "Grace of Resurrection"
+    },
+    "40": {
+      "0": true,
+      "name": "Zenobia's Vortex"
+    },
+    "41": {
+      "0": false,
+      "10": true,
+      "name": "Divine Intervention"
+    }
+  },
+  "Mystic": {
+    "1": {
+      "0": true,
+      "1": true,
+      "2": true,
+      "3": true,
+      "name": "Sharan Bolt"
+    },
+    "2": {
+      "0": true,
+      "11": true,
+      "12": true,
+      "name": "Corruption Ring"
+    },
+    "3": {
+      "0": true,
+      "name": "Titanic Wrath"
+    },
+    "4": {
+      "0": true,
+      "name": "Ancient Binding"
+    },
+    "5": {
+      "0": false,
+      "10": true,
+      "name": "Titanic Favor"
+    },
+    "6": {
+      "0": true,
+      "name": "Shara's Lash"
+    },
+    "7": {
+      "0": true,
+      "name": "Mana Infusion"
+    },
+    "8": {
+      "0": true,
+      "name": "Metamorphic Blast"
+    },
+    "9": {
+      "0": false,
+      "10": true,
+      "name": "Arun's Cleansing Touch"
+    },
+    "10": {
+      "0": true,
+      "name": "Resurrect"
+    },
+    "11": {
+      "0": true,
+      "name": "Summon: Party"
+    },
+    "12": {
+      "0": true,
+      "name": "Vow of Rebirth"
+    },
+    "13": {
+      "0": true,
+      "50": true,
+      "name": "Aura of the Merciless"
+    },
+    "14": {
+      "0": true,
+      "50": true,
+      "name": "Aura of the Swift"
+    },
+    "15": {
+      "0": true,
+      "50": true,
+      "name": "Aura of the Unyielding"
+    },
+    "16": {
+      "0": true,
+      "50": true,
+      "name": "Aura of the Tenacious"
+    },
+    "17": {
+      "0": false,
+      "name": "Teleport Jaunt"
+    },
+    "18": {
+      "0": true,
+      "name": "Arun's Vitae"
+    },
+    "21": {
+      "0": true,
+      "name": "Retaliate"
+    },
+    "22": {
+      "0": true,
+      "name": "Arun's Tears"
+    },
+    "23": {
+      "0": true,
+      "name": "Metamorphic Smite"
+    },
+    "24": {
+      "0": false,
+      "10": true,
+      "name": "Volley of Curses"
+    },
+    "25": {
+      "0": true,
+      "name": "Thrall of Protection"
+    },
+    "27": {
+      "0": true,
+      "name": "Thrall of Life"
+    },
+    "28": {
+      "0": false,
+      "10": true,
+      "name": "Sonorous Dreams"
+    },
+    "29": {
+      "0": true,
+      "name": "Regression"
+    },
+    "30": {
+      "0": false,
+      "10": true,
+      "name": "Curse of Exhaustion"
+    },
+    "31": {
+      "0": false,
+      "10": true,
+      "name": "Curse of Confusion"
+    },
+    "32": {
+      "0": false,
+      "10": true,
+      "name": "Mire"
+    },
+    "33": {
+      "0": true,
+      "name": "Thrall of Vengeance"
+    },
+    "34": {
+      "0": true,
+      "name": "Thrall of Wrath"
+    },
+    "35": {
+      "0": true,
+      "name": "Command: Attack"
+    },
+    "36": {
+      "0": true,
+      "name": "Command: Follow"
+    },
+    "37": {
+      "0": true,
+      "name": "Warding Totem"
+    },
+    "38": {
+      "0": true,
+      "name": "Numbing Totem"
+    },
+    "39": {
+      "0": true,
+      "name": "Speed Totem"
+    },
+    "40": {
+      "0": true,
+      "name": "Assailing Totem"
+    },
+    "41": {
+      "0": false,
+      "10": true,
+      "name": "Contagion"
+    },
+    "42": {
+      "0": true,
+      "name": "Boomerang Pulse"
+    }
+  },
+  "Gunner": {
+    "1": {
+      "1": true,
+      "2": true,
+      "name": "Blast"
+    },
+    "2": {
+      "0": true,
+      "1": true,
+      "name": "Bombardment"
+    },
+    "3": {
+      "1": true,
+      "2": true,
+      "30": true,
+      "name": "Scattershot"
+    },
+    "4": {
+      "1": true,
+      "2": true,
+      "3": true,
+      "4": true,
+      "30": true,
+      "name": "Point Blank"
+    },
+    "5": {
+      "0": true,
+      "1": true,
+      "name": "Burst Fire"
+    },
+    "6": {
+      "1": true,
+      "2": true,
+      "name": "Time Bomb"
+    },
+    "7": {
+      "1": true,
+      "2": true,
+      "3": true,
+      "name": "Arcane Barrage"
+    },
+    "9": {
+      "0": false,
+      "10": true,
+      "11": true,
+      "name": "Mana Missiles"
+    },
+    "10": {
+      "1": true,
+      "2": true,
+      "30": true,
+      "name": "Arc Bomb"
+    },
+    "11": {
+      "1": true,
+      "2": true,
+      "30": true,
+      "31": true,
+      "name": "Rocket Jump"
+    },
+    "13": {
+      "1": true,
+      "2": true,
+      "30": true,
+      "name": "Balder's Vengeance"
+    },
+    "15": {
+      "1": true,
+      "2": true,
+      "30": true,
+      "name": "Replenishment"
+    },
+    "18": {
+      "1": true,
+      "2": true,
+      "name": "HB-1"
+    },
+    "19": {
+      "1": true,
+      "2": true,
+      "30": true,
+      "name": "ST-1"
+    },
+    "20": {
+      "0": true,
+      "name": "Retaliate"
+    },
+    "21": {
+      "0": true,
+      "name": "Command: Recall"
+    },
+    "22": {
+      "0": true,
+      "name": "Command: Self-Destruct"
+    },
+    "23": {
+      "1": true,
+      "2": true,
+      "name": "Command: Stay/Follow"
+    },
+    "40": {
+      "0": true,
+      "name": "Rolling Reload"
+    }
+  },
+  "Reaper": {
+    "1": {
+      "0": true,
+      "1": true,
+      "2": true,
+      "3": true,
+      "4": true,
+      "5": true,
+      "name": "Spiral Barrage"
+    },
+    "3": {
+      "0": true,
+      "30": true,
+      "name": "Double Shear"
+    },
+    "4": {
+      "0": true,
+      "30": true,
+      "name": "Sundering Strike"
+    },
+    "5": {
+      "0": true,
+      "30": true,
+      "name": "Grim Strike"
+    },
+    "6": {
+      "0": true,
+      "30": true,
+      "31": true,
+      "90": true,
+      "name": "Death Spiral"
+    },
+    "7": {
+      "0": true,
+      "1": true,
+      "10": true,
+      "name": "Final Judgment"
+    },
+    "8": {
+      "0": true,
+      "30": true,
+      "name": "Whipsaw"
+    },
+    "9": {
+      "0": true,
+      "30": true,
+      "name": "Smite"
+    },
+    "10": {
+      "0": true,
+      "30": true,
+      "name": "Pendulum Strike"
+    },
+    "11": {
+      "0": true,
+      "1": true,
+      "2": true,
+      "3": true,
+      "90": true,
+      "name": "Shadow Lash"
+    },
+    "12": {
+      "0": true,
+      "1": true,
+      "30": true,
+      "name": "Shadow Burst"
+    },
+    "13": {
+      "0": true,
+      "30": true,
+      "name": "Soul Reversal"
+    },
+    "14": {
+      "0": true,
+      "name": "Retaliate"
+    },
+    "15": {
+      "0": true,
+      "80": true,
+      "name": "Retribution"
+    },
+    "16": {
+      "0": true,
+      "name": "Shadow Reaping"
+    },
+    "17": {
+      "0": false,
+      "10": true,
+      "name": "Spirit Gallows"
+    },
+    "18": {
+      "0": true,
+      "name": "Shrouded Escape"
+    },
+    "20": {
+      "0": true,
+      "name": "Cable Step"
+    },
+    "40": {
+      "0": true,
+      "30": true,
+      "name": "Shadow Step"
+    }
+  }
+}
