@@ -12,6 +12,7 @@ class PingCompensation {
 
         this.mod = mod
         this.hooks = []
+        this.abnormals = new Set()
 
         this.debugging = false
         this.enabled = true
@@ -127,6 +128,8 @@ class PingCompensation {
         this.hooks.push(this.mod.hook("C_REQUEST_GAMESTAT_PING", "event", { order: 1 }, this.PingRequestHandler))
         this.hooks.push(this.mod.hook("C_REQUEST_GAMESTAT_PING", "event", { order: 1, filter: { fake: true } }, this.PingFakeRequestHandler))
         this.hooks.push(this.mod.hook("S_RESPONSE_GAMESTAT_PONG", "event", { order: 1, filter: { silenced: null } }, this.PingResponseHandler))
+
+        this.hooks.push(this.mod.hook("S_EACH_SKILL_RESULT", "*", this.ReactionHandler))
 
         this.hooks.push(this.mod.hook("S_ACTION_STAGE", "*", { order: 1 }, this.ActionStageHandler))
         this.hooks.push(this.mod.hook("S_ACTION_END", "*", { order: 1, filter: { fake: null } }, this.ActionEndHandler))
@@ -370,8 +373,93 @@ class PingCompensation {
     ReactionHandler(event) {
         if (this.mod.game.me.is(event.target) && event.reaction && event.reaction.enable) {
             this.CancelRetry()
-            const { loc, w } = event.reaction
-            this.UpdateLocation({ loc, w })
+            const templateId = this.mod.game.me.templateId
+            const skillId = event.reaction.skill.id
+            if (this.skills?.[templateId]?.[skillId]) {
+                let { name, dcType, length, distance } = this.skills[templateId][skillId]
+
+                if (this.debugging) {
+                    this.mod.log(`Action Stage "${name}" (${skillId}).`)
+                    this.actionName = name
+                }
+
+                if (dcType == "reaction") {
+                    // sometimes server gives custom length and distance
+                    if (event.reaction.animSeq && event.reaction.animSeq.length > 0) {
+                        length = event.reaction.animSeq.reduce((a,b) => {
+                            const durA = a.duration
+                            const durB = b.duration
+                            if (durA == -1) durA = 0
+                            if (durB == -1) durB = 0
+                            return durA + durB
+                        })
+                        
+                        const backwards = distance < 0
+                        distance = event.reaction.animSeq.reduce((a,b) => {
+                            const distA = a.distance
+                            const distB = b.distance
+                            if (distA == -1) distA = 0
+                            if (distB == -1) distB = 0
+                            return distA + distB
+                        })
+                        if (backwards) {
+                            distance *= -1
+                        }
+                    }
+                    
+                    const fixedLength = Math.max(length - this.pingMin + this.pingOffsetSetting, 20)
+                    const fixedSpeedMult = length / fixedLength
+
+                    if (event.reaction.animSeq && event.reaction.animSeq.length > 0) {
+                        for (let anim of event.reaction.animSeq) {
+                            anim.duration /= fixedSpeedMult
+                            anim.xyRate *= fixedSpeedMult
+                            anim.zRate *= fixedSpeedMult
+                        }
+                    }
+
+                    // Only set action end from first action stage
+                    if (this.actionEndTimer) {
+                        if (this.actionEnd && this.actionEnd.id == event.reaction.id) {
+                            return true
+                        }
+                        else {
+                            if (this.debugging) {
+                                this.mod.error("New S_ACTION_STAGE without S_ACTION_END")
+                                this.mod.error(event)
+                            }
+                            this.CancelActionEnd()
+                        }
+                    }
+
+                    this.actionEndSpeed = 1.0
+                    this.actionEndTime = Date.now() + Math.round(length)
+                    
+                    if (this.debugging) {
+                        this.mod.log(`Reduced length from ${Math.round(length)} ms to ${Math.round(fixedLength)} ms.`)
+                    }
+
+                    this.actionEnd = {
+                        gameId: event.target,
+                        loc: event.reaction.loc,
+                        w: event.reaction.w,
+                        templateId: templateId,
+                        skill: event.reaction.skill,
+                        type: 0,
+                        id: event.reaction.id
+                    }
+
+                    if (distance) {
+                        const dx = distance * Math.cos(event.reaction.w)
+                        const dy = distance * Math.sin(event.reaction.w)
+                        this.actionEnd.loc = event.reaction.loc.addN(dx, dy, 0)
+                    }
+
+                    this.actionEndTimer = this.mod.setTimeout(this.SendActionEnd, fixedLength)
+
+                    return true
+                }
+            }
         }
     }
 
@@ -450,21 +538,44 @@ class PingCompensation {
                     this.actionName = name
                 }
 
-                if (this.config?.[className]?.[skillBase]?.[skillSub]
+                if (dcType == "reaction" || this.config?.[className]?.[skillBase]?.[skillSub]
                     && !DISABLED_SKILL_TYPES.includes(dcType)
                     && length > 0 && event.speed > 0
                 ) {
                     length = length / event.speed
+                    
+                    // sometimes server gives custom length and distance
+                    if (event.animSeq && event.animSeq.length > 0) {
+                        length = event.animSeq.reduce((a,b) => {
+                            const durA = a.duration
+                            const durB = b.duration
+                            if (durA == -1) durA = 0
+                            if (durB == -1) durB = 0
+                            return durA + durB
+                        })
+                        
+                        const backwards = distance < 0
+                        distance = event.animSeq.reduce((a,b) => {
+                            const distA = a.distance
+                            const distB = b.distance
+                            if (distA == -1) distA = 0
+                            if (distB == -1) distB = 0
+                            return distA + distB
+                        })
+                        if (backwards) {
+                            distance *= -1
+                        }
+                    }
+                    
                     const fixedLength = Math.max(length - this.pingMin + this.pingOffsetSetting, 20)
                     const fixedSpeedMult = length / fixedLength
                     event.speed *= fixedSpeedMult
 
-                    if (event.animSeq.length > 0) {
-                        distance = 0
+                    if (event.animSeq && event.animSeq.length > 0) {
                         for (let anim of event.animSeq) {
                             anim.duration /= fixedSpeedMult
                             anim.xyRate *= fixedSpeedMult
-                            distance += event.distance
+                            anim.zRate *= fixedSpeedMult
                         }
                     }
                     
@@ -482,11 +593,8 @@ class PingCompensation {
                         }
                     }
 
-                    if (this.debugging) {
-                        this.actionEndSpeed = event.speed / fixedSpeedMult
-                        this.actionEndTime = Date.now() + Math.round(length)
-                        this.mod.log(`Reduced length from ${Math.round(length)} ms to ${Math.round(fixedLength)} ms.`)
-                    }
+                    this.actionEndSpeed = event.speed / fixedSpeedMult
+                    this.actionEndTime = Date.now() + Math.round(length)
 
                     this.actionEnd = {
                         gameId: event.gameId,
@@ -502,6 +610,10 @@ class PingCompensation {
                         const dx = distance * Math.cos(event.w)
                         const dy = distance * Math.sin(event.w)
                         this.actionEnd.loc = event.loc.addN(dx, dy, 0)
+                    }
+                    
+                    if (this.debugging) {
+                        this.mod.log(`Reduced length from ${Math.round(length)} ms to ${Math.round(fixedLength)} ms.`)
                     }
 
                     this.actionEndTimer = this.mod.setTimeout(this.SendActionEnd, fixedLength)

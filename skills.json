@@ -1709,6 +1709,30 @@
       "distance": 0,
       "length": 500,
       "name": "Binding Sword"
+    },
+    "1010101": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 900,
+      "name": "Staggger"
+    },
+    "1010102": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3192,
+      "name": "Knockdown"
+    },
+    "1010103": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1010104": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "10102": {
@@ -2899,6 +2923,30 @@
       "distance": 0,
       "length": 640,
       "name": "Rallying Cry"
+    },
+    "1010201": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1010202": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3092,
+      "name": "Knockdown"
+    },
+    "1010203": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1010204": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "10103": {
@@ -4011,6 +4059,30 @@
       "distance": 171.13799,
       "length": 1331,
       "name": "Ultimate Overhand Strike I"
+    },
+    "1010301": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1010302": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3142,
+      "name": "Knockdown"
+    },
+    "1010303": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1010304": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "10104": {
@@ -5993,6 +6065,30 @@
       "distance": 0,
       "length": 2066,
       "name": "Unbreakable"
+    },
+    "1010401": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1010402": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3050,
+      "name": "Knockdown"
+    },
+    "1010403": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1010404": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "10105": {
@@ -7669,6 +7765,30 @@
       "distance": 0,
       "length": 1499,
       "name": "Warp Barrier"
+    },
+    "1010501": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1010502": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3092,
+      "name": "Knockdown"
+    },
+    "1010503": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1010504": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "10106": {
@@ -9909,6 +10029,30 @@
       "distance": 0,
       "length": 1200,
       "name": "Tenacity"
+    },
+    "1010601": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1010602": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3050,
+      "name": "Knockdown"
+    },
+    "1010603": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1010604": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "10107": {
@@ -11951,6 +12095,30 @@
       "distance": 0,
       "length": 966,
       "name": "Divine Intervention"
+    },
+    "1010701": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1010702": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3004,
+      "name": "Knockdown"
+    },
+    "1010703": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1010704": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "10108": {
@@ -13597,6 +13765,30 @@
       "distance": 0,
       "length": 0,
       "name": "Boomerang Pulse"
+    },
+    "1010801": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1010802": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3133,
+      "name": "Knockdown"
+    },
+    "1010803": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1010804": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "10201": {
@@ -15309,6 +15501,30 @@
       "distance": 0,
       "length": 500,
       "name": "Binding Sword"
+    },
+    "1020101": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 900,
+      "name": "Staggger"
+    },
+    "1020102": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3054,
+      "name": "Knockdown"
+    },
+    "1020103": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1020104": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "10202": {
@@ -16499,6 +16715,30 @@
       "distance": 0,
       "length": 640,
       "name": "Rallying Cry"
+    },
+    "1020201": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 900,
+      "name": "Staggger"
+    },
+    "1020202": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3054,
+      "name": "Knockdown"
+    },
+    "1020203": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1020204": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "10203": {
@@ -17611,6 +17851,30 @@
       "distance": 171.13799,
       "length": 1331,
       "name": "Ultimate Overhand Strike I"
+    },
+    "1020301": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1020302": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3054,
+      "name": "Knockdown"
+    },
+    "1020303": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1020304": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "10204": {
@@ -19593,6 +19857,30 @@
       "distance": 0,
       "length": 2066,
       "name": "Unbreakable"
+    },
+    "1020401": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1020402": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3054,
+      "name": "Knockdown"
+    },
+    "1020403": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1020404": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "10205": {
@@ -21269,6 +21557,30 @@
       "distance": 0,
       "length": 1499,
       "name": "Warp Barrier"
+    },
+    "1020501": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1020502": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3054,
+      "name": "Knockdown"
+    },
+    "1020503": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1020504": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "10206": {
@@ -23509,6 +23821,30 @@
       "distance": 0,
       "length": 1200,
       "name": "Tenacity"
+    },
+    "1020601": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1020602": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3050,
+      "name": "Knockdown"
+    },
+    "1020603": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1020604": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "10207": {
@@ -25551,6 +25887,30 @@
       "distance": 0,
       "length": 933,
       "name": "Divine Intervention"
+    },
+    "1020701": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1020702": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3054,
+      "name": "Knockdown"
+    },
+    "1020703": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1020704": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "10208": {
@@ -27197,6 +27557,30 @@
       "distance": 0,
       "length": 0,
       "name": "Boomerang Pulse"
+    },
+    "1020801": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1020802": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3050,
+      "name": "Knockdown"
+    },
+    "1020803": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1020804": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "10301": {
@@ -28909,6 +29293,30 @@
       "distance": 0,
       "length": 500,
       "name": "Binding Sword"
+    },
+    "1030101": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 900,
+      "name": "Staggger"
+    },
+    "1030102": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3092,
+      "name": "Knockdown"
+    },
+    "1030103": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1030104": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "10302": {
@@ -30099,6 +30507,30 @@
       "distance": 0,
       "length": 640,
       "name": "Rallying Cry"
+    },
+    "1030201": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1030202": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3092,
+      "name": "Knockdown"
+    },
+    "1030203": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1030204": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "10303": {
@@ -31211,6 +31643,30 @@
       "distance": 171.13799,
       "length": 1331,
       "name": "Ultimate Overhand Strike I"
+    },
+    "1030301": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1030302": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3142,
+      "name": "Knockdown"
+    },
+    "1030303": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1030304": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "10304": {
@@ -33193,6 +33649,30 @@
       "distance": 0,
       "length": 2066,
       "name": "Unbreakable"
+    },
+    "1030401": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1030402": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3004,
+      "name": "Knockdown"
+    },
+    "1030403": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1030404": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "10305": {
@@ -34869,6 +35349,30 @@
       "distance": 0,
       "length": 1499,
       "name": "Warp Barrier"
+    },
+    "1030501": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 900,
+      "name": "Staggger"
+    },
+    "1030502": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3092,
+      "name": "Knockdown"
+    },
+    "1030503": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1030504": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "10306": {
@@ -37109,6 +37613,30 @@
       "distance": 0,
       "length": 1200,
       "name": "Tenacity"
+    },
+    "1030601": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1030602": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3004,
+      "name": "Knockdown"
+    },
+    "1030603": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1030604": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "10307": {
@@ -39151,6 +39679,30 @@
       "distance": 0,
       "length": 933,
       "name": "Divine Intervention"
+    },
+    "1030701": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1030702": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3079,
+      "name": "Knockdown"
+    },
+    "1030703": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1030704": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "10308": {
@@ -40797,6 +41349,30 @@
       "distance": 0,
       "length": 0,
       "name": "Boomerang Pulse"
+    },
+    "1030801": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 900,
+      "name": "Staggger"
+    },
+    "1030802": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3092,
+      "name": "Knockdown"
+    },
+    "1030803": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1030804": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "10401": {
@@ -42509,6 +43085,30 @@
       "distance": 0,
       "length": 500,
       "name": "Binding Sword"
+    },
+    "1040101": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1040102": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3004,
+      "name": "Knockdown"
+    },
+    "1040103": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1040104": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "10402": {
@@ -43699,6 +44299,30 @@
       "distance": 0,
       "length": 640,
       "name": "Rallying Cry"
+    },
+    "1040201": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1040202": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3071,
+      "name": "Knockdown"
+    },
+    "1040203": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1040204": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "10403": {
@@ -44811,6 +45435,30 @@
       "distance": 152.19379,
       "length": 1331,
       "name": "Ultimate Overhand Strike I"
+    },
+    "1040301": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1040302": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3004,
+      "name": "Knockdown"
+    },
+    "1040303": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1040304": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "10404": {
@@ -46793,6 +47441,30 @@
       "distance": 0,
       "length": 2066,
       "name": "Unbreakable"
+    },
+    "1040401": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1040402": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3004,
+      "name": "Knockdown"
+    },
+    "1040403": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1040404": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "10405": {
@@ -48469,6 +49141,30 @@
       "distance": 0,
       "length": 1499,
       "name": "Warp Barrier"
+    },
+    "1040501": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1040502": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3004,
+      "name": "Knockdown"
+    },
+    "1040503": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1040504": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "10406": {
@@ -50709,6 +51405,30 @@
       "distance": 0,
       "length": 1200,
       "name": "Tenacity"
+    },
+    "1040601": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1040602": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3049,
+      "name": "Knockdown"
+    },
+    "1040603": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1040604": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "10407": {
@@ -52751,6 +53471,30 @@
       "distance": 0,
       "length": 933,
       "name": "Divine Intervention"
+    },
+    "1040701": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1040702": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3004,
+      "name": "Knockdown"
+    },
+    "1040703": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1040704": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "10408": {
@@ -54397,6 +55141,30 @@
       "distance": 0,
       "length": 0,
       "name": "Boomerang Pulse"
+    },
+    "1040801": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1040802": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3004,
+      "name": "Knockdown"
+    },
+    "1040803": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1040804": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "10410": {
@@ -60125,6 +60893,30 @@
       "distance": 0,
       "length": 500,
       "name": "Binding Sword"
+    },
+    "1050101": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 900,
+      "name": "Staggger"
+    },
+    "1050102": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3050,
+      "name": "Knockdown"
+    },
+    "1050103": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1050104": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "10502": {
@@ -61315,6 +62107,30 @@
       "distance": 0,
       "length": 640,
       "name": "Rallying Cry"
+    },
+    "1050201": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1050202": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3050,
+      "name": "Knockdown"
+    },
+    "1050203": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1050204": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "10503": {
@@ -62427,6 +63243,30 @@
       "distance": 145,
       "length": 1331,
       "name": "Ultimate Overhand Strike I"
+    },
+    "1050301": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1050302": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3138,
+      "name": "Knockdown"
+    },
+    "1050303": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1050304": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "10504": {
@@ -64409,6 +65249,30 @@
       "distance": 0,
       "length": 2066,
       "name": "Unbreakable"
+    },
+    "1050401": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 900,
+      "name": "Staggger"
+    },
+    "1050402": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3113,
+      "name": "Knockdown"
+    },
+    "1050403": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1050404": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "10505": {
@@ -66085,6 +66949,30 @@
       "distance": 0,
       "length": 1499,
       "name": "Warp Barrier"
+    },
+    "1050501": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1050502": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3050,
+      "name": "Knockdown"
+    },
+    "1050503": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1050504": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "10506": {
@@ -68325,6 +69213,30 @@
       "distance": 0,
       "length": 1200,
       "name": "Tenacity"
+    },
+    "1050601": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1050602": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3004,
+      "name": "Knockdown"
+    },
+    "1050603": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1050604": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "10507": {
@@ -70367,6 +71279,30 @@
       "distance": 0,
       "length": 933,
       "name": "Divine Intervention"
+    },
+    "1050701": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1050702": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3004,
+      "name": "Knockdown"
+    },
+    "1050703": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1050704": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "10508": {
@@ -72013,6 +72949,30 @@
       "distance": 0,
       "length": 0,
       "name": "Boomerang Pulse"
+    },
+    "1050801": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1050802": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3100,
+      "name": "Knockdown"
+    },
+    "1050803": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1050804": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "10601": {
@@ -73725,6 +74685,30 @@
       "distance": 0,
       "length": 500,
       "name": "Binding Sword"
+    },
+    "1060101": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1060102": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3092,
+      "name": "Knockdown"
+    },
+    "1060103": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1060104": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "10602": {
@@ -74915,6 +75899,30 @@
       "distance": 0,
       "length": 640,
       "name": "Rallying Cry"
+    },
+    "1060201": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1060202": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3092,
+      "name": "Knockdown"
+    },
+    "1060203": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1060204": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "10603": {
@@ -76027,6 +77035,30 @@
       "distance": 134.53168,
       "length": 1331,
       "name": "Ultimate Overhand Strike I"
+    },
+    "1060301": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1060302": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3092,
+      "name": "Knockdown"
+    },
+    "1060303": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1060304": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "10604": {
@@ -78009,6 +79041,30 @@
       "distance": 0,
       "length": 2066,
       "name": "Unbreakable"
+    },
+    "1060401": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1060402": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3092,
+      "name": "Knockdown"
+    },
+    "1060403": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1060404": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "10605": {
@@ -79685,6 +80741,30 @@
       "distance": 0,
       "length": 1499,
       "name": "Warp Barrier"
+    },
+    "1060501": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1060502": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3092,
+      "name": "Knockdown"
+    },
+    "1060503": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1060504": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "10606": {
@@ -81925,6 +83005,30 @@
       "distance": 0,
       "length": 1200,
       "name": "Tenacity"
+    },
+    "1060601": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 900,
+      "name": "Staggger"
+    },
+    "1060602": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3092,
+      "name": "Knockdown"
+    },
+    "1060603": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1060604": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "10607": {
@@ -83967,6 +85071,30 @@
       "distance": 0,
       "length": 933,
       "name": "Divine Intervention"
+    },
+    "1060701": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 833,
+      "name": "Staggger"
+    },
+    "1060702": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3092,
+      "name": "Knockdown"
+    },
+    "1060703": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1060704": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "10608": {
@@ -85613,6 +86741,30 @@
       "distance": 0,
       "length": 0,
       "name": "Boomerang Pulse"
+    },
+    "1060801": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1060802": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3092,
+      "name": "Knockdown"
+    },
+    "1060803": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1060804": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "10701": {
@@ -87325,6 +88477,30 @@
       "distance": 0,
       "length": 500,
       "name": "Binding Sword"
+    },
+    "1070101": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1070102": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3171,
+      "name": "Knockdown"
+    },
+    "1070103": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1070104": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "10702": {
@@ -88515,6 +89691,30 @@
       "distance": 0,
       "length": 640,
       "name": "Rallying Cry"
+    },
+    "1070201": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1070202": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3171,
+      "name": "Knockdown"
+    },
+    "1070203": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1070204": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "10703": {
@@ -89627,6 +90827,30 @@
       "distance": 161.13799,
       "length": 1331,
       "name": "Ultimate Overhand Strike I"
+    },
+    "1070301": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1070302": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3088,
+      "name": "Knockdown"
+    },
+    "1070303": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1070304": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "10704": {
@@ -91609,6 +92833,30 @@
       "distance": 0,
       "length": 2066,
       "name": "Unbreakable"
+    },
+    "1070401": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1070402": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3004,
+      "name": "Knockdown"
+    },
+    "1070403": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1070404": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "10705": {
@@ -93285,6 +94533,30 @@
       "distance": 0,
       "length": 1499,
       "name": "Warp Barrier"
+    },
+    "1070501": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1070502": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3171,
+      "name": "Knockdown"
+    },
+    "1070503": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1070504": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "10706": {
@@ -95525,6 +96797,30 @@
       "distance": 0,
       "length": 1200,
       "name": "Tenacity"
+    },
+    "1070601": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1070602": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3171,
+      "name": "Knockdown"
+    },
+    "1070603": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1070604": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "10707": {
@@ -97567,6 +98863,30 @@
       "distance": 0,
       "length": 933,
       "name": "Divine Intervention"
+    },
+    "1070701": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1070702": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3171,
+      "name": "Knockdown"
+    },
+    "1070703": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1070704": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "10708": {
@@ -99213,6 +100533,30 @@
       "distance": 0,
       "length": 0,
       "name": "Boomerang Pulse"
+    },
+    "1070801": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1070802": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3216,
+      "name": "Knockdown"
+    },
+    "1070803": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1070804": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "10801": {
@@ -100925,6 +102269,30 @@
       "distance": 0,
       "length": 500,
       "name": "Binding Sword"
+    },
+    "1080101": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1080102": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3050,
+      "name": "Knockdown"
+    },
+    "1080103": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1080104": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "10802": {
@@ -102115,6 +103483,30 @@
       "distance": 0,
       "length": 640,
       "name": "Rallying Cry"
+    },
+    "1080201": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1080202": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3071,
+      "name": "Knockdown"
+    },
+    "1080203": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1080204": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "10803": {
@@ -103227,6 +104619,30 @@
       "distance": 170,
       "length": 1331,
       "name": "Ultimate Overhand Strike I"
+    },
+    "1080301": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1080302": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3113,
+      "name": "Knockdown"
+    },
+    "1080303": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1080304": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "10804": {
@@ -105209,6 +106625,30 @@
       "distance": 0,
       "length": 2099,
       "name": "Unbreakable"
+    },
+    "1080401": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1080402": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3071,
+      "name": "Knockdown"
+    },
+    "1080403": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1080404": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "10805": {
@@ -106885,6 +108325,30 @@
       "distance": 0,
       "length": 1499,
       "name": "Warp Barrier"
+    },
+    "1080501": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1080502": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3050,
+      "name": "Knockdown"
+    },
+    "1080503": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1080504": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "10806": {
@@ -109125,6 +110589,30 @@
       "distance": 0,
       "length": 1200,
       "name": "Tenacity"
+    },
+    "1080601": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1080602": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3113,
+      "name": "Knockdown"
+    },
+    "1080603": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1080604": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "10807": {
@@ -111167,6 +112655,30 @@
       "distance": 0,
       "length": 933,
       "name": "Divine Intervention"
+    },
+    "1080701": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1080702": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3071,
+      "name": "Knockdown"
+    },
+    "1080703": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1080704": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "10808": {
@@ -112813,6 +114325,30 @@
       "distance": 0,
       "length": 0,
       "name": "Boomerang Pulse"
+    },
+    "1080801": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1080802": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3095,
+      "name": "Knockdown"
+    },
+    "1080803": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1080804": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "10810": {
@@ -118541,6 +120077,30 @@
       "distance": 0,
       "length": 500,
       "name": "Binding Sword"
+    },
+    "1090101": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 875,
+      "name": "Staggger"
+    },
+    "1090102": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3019,
+      "name": "Knockdown"
+    },
+    "1090103": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1090104": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "10902": {
@@ -119731,6 +121291,30 @@
       "distance": 0,
       "length": 943,
       "name": "Rallying Cry"
+    },
+    "1090201": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1090202": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3019,
+      "name": "Knockdown"
+    },
+    "1090203": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1090204": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "10903": {
@@ -120843,6 +122427,30 @@
       "distance": 150,
       "length": 1331,
       "name": "Ultimate Overhand Strike I"
+    },
+    "1090301": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1090302": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3019,
+      "name": "Knockdown"
+    },
+    "1090303": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1090304": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "10904": {
@@ -122825,6 +124433,30 @@
       "distance": 0,
       "length": 2066,
       "name": "Unbreakable"
+    },
+    "1090401": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1090402": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3019,
+      "name": "Knockdown"
+    },
+    "1090403": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1090404": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "10905": {
@@ -124501,6 +126133,30 @@
       "distance": 0,
       "length": 1499,
       "name": "Warp Barrier"
+    },
+    "1090501": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1090502": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3019,
+      "name": "Knockdown"
+    },
+    "1090503": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1090504": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "10906": {
@@ -126741,6 +128397,30 @@
       "distance": 0,
       "length": 1200,
       "name": "Tenacity"
+    },
+    "1090601": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1090602": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3019,
+      "name": "Knockdown"
+    },
+    "1090603": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1090604": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "10907": {
@@ -128783,6 +130463,30 @@
       "distance": 0,
       "length": 933,
       "name": "Divine Intervention"
+    },
+    "1090701": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1090702": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3019,
+      "name": "Knockdown"
+    },
+    "1090703": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1090704": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "10908": {
@@ -130429,6 +132133,30 @@
       "distance": 0,
       "length": 0,
       "name": "Boomerang Pulse"
+    },
+    "1090801": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 833,
+      "name": "Staggger"
+    },
+    "1090802": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3019,
+      "name": "Knockdown"
+    },
+    "1090803": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1090804": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "11001": {
@@ -132141,6 +133869,30 @@
       "distance": 0,
       "length": 500,
       "name": "Binding Sword"
+    },
+    "1100101": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1100102": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3004,
+      "name": "Knockdown"
+    },
+    "1100103": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1100104": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "11002": {
@@ -133331,6 +135083,30 @@
       "distance": 0,
       "length": 640,
       "name": "Rallying Cry"
+    },
+    "1100201": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1100202": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3004,
+      "name": "Knockdown"
+    },
+    "1100203": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1100204": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "11003": {
@@ -134443,6 +136219,30 @@
       "distance": 169.6481,
       "length": 1331,
       "name": "Ultimate Overhand Strike I"
+    },
+    "1100301": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1100302": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3004,
+      "name": "Knockdown"
+    },
+    "1100303": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1100304": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "11004": {
@@ -136425,6 +138225,30 @@
       "distance": 0,
       "length": 2066,
       "name": "Unbreakable"
+    },
+    "1100401": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1100402": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3004,
+      "name": "Knockdown"
+    },
+    "1100403": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1100404": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "11005": {
@@ -138101,6 +139925,30 @@
       "distance": 0,
       "length": 1499,
       "name": "Warp Barrier"
+    },
+    "1100501": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1100502": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3004,
+      "name": "Knockdown"
+    },
+    "1100503": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1100504": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "11006": {
@@ -140341,6 +142189,30 @@
       "distance": 0,
       "length": 1200,
       "name": "Tenacity"
+    },
+    "1100601": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1100602": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3004,
+      "name": "Knockdown"
+    },
+    "1100603": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1100604": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "11007": {
@@ -142347,6 +144219,30 @@
       "distance": 0,
       "length": 933,
       "name": "Divine Intervention"
+    },
+    "1100701": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1100702": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3049,
+      "name": "Knockdown"
+    },
+    "1100703": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1100704": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "11008": {
@@ -143993,6 +145889,30 @@
       "distance": 0,
       "length": 0,
       "name": "Boomerang Pulse"
+    },
+    "1100801": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1100802": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3004,
+      "name": "Knockdown"
+    },
+    "1100803": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1100804": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "11009": {
@@ -146295,6 +148215,30 @@
       "distance": 0,
       "length": 500,
       "name": "Binding Sword"
+    },
+    "1110101": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1110102": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3008,
+      "name": "Knockdown"
+    },
+    "1110103": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1110104": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "11102": {
@@ -147485,6 +149429,30 @@
       "distance": 0,
       "length": 640,
       "name": "Rallying Cry"
+    },
+    "1110201": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1110202": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3008,
+      "name": "Knockdown"
+    },
+    "1110203": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1110204": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "11103": {
@@ -148597,6 +150565,30 @@
       "distance": 151.13799,
       "length": 1331,
       "name": "Ultimate Overhand Strike I"
+    },
+    "1110301": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1110302": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3008,
+      "name": "Knockdown"
+    },
+    "1110303": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1110304": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "11104": {
@@ -150579,6 +152571,30 @@
       "distance": 0,
       "length": 2066,
       "name": "Unbreakable"
+    },
+    "1110401": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1110402": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3036,
+      "name": "Knockdown"
+    },
+    "1110403": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1110404": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "11105": {
@@ -152255,6 +154271,30 @@
       "distance": 0,
       "length": 1499,
       "name": "Warp Barrier"
+    },
+    "1110501": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1110502": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3008,
+      "name": "Knockdown"
+    },
+    "1110503": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1110504": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "11106": {
@@ -154495,6 +156535,30 @@
       "distance": 0,
       "length": 1200,
       "name": "Tenacity"
+    },
+    "1110601": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 833,
+      "name": "Staggger"
+    },
+    "1110602": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3008,
+      "name": "Knockdown"
+    },
+    "1110603": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1110604": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "11107": {
@@ -156537,6 +158601,30 @@
       "distance": 0,
       "length": 933,
       "name": "Divine Intervention"
+    },
+    "1110701": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1110702": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3008,
+      "name": "Knockdown"
+    },
+    "1110703": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1110704": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   },
   "11108": {
@@ -158183,6 +160271,30 @@
       "distance": 0,
       "length": 0,
       "name": "Boomerang Pulse"
+    },
+    "1110801": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 850,
+      "name": "Staggger"
+    },
+    "1110802": {
+      "dcType": "reaction",
+      "distance": -100,
+      "length": 3008,
+      "name": "Knockdown"
+    },
+    "1110803": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Stun"
+    },
+    "1110804": {
+      "dcType": "reaction",
+      "distance": 0,
+      "length": 1000,
+      "name": "Knockup"
     }
   }
 }
