@@ -1,0 +1,958 @@
+{
+  "301": {
+    "type": "Stun",
+    "name": "Lightning Trap"
+  },
+  "302": {
+    "type": "Stun",
+    "name": "Lightning Trap"
+  },
+  "303": {
+    "type": "Stun",
+    "name": "Lightning Trap"
+  },
+  "901": {
+    "type": "Stun",
+    "name": "Shara's Lash"
+  },
+  "2064": {
+    "type": "Stun",
+    "name": "Tons of Stun"
+  },
+  "2074": {
+    "type": "Stun",
+    "name": "Iced!"
+  },
+  "2890": {
+    "type": "Stun",
+    "name": "Unfocusing Bomb"
+  },
+  "2905": {
+    "type": "Stun",
+    "name": "Bramblefoot Bomb"
+  },
+  "4871": {
+    "type": "Stun",
+    "name": "Dirty Fighting"
+  },
+  "15030": {
+    "type": "Stun",
+    "name": "Freezing Prison"
+  },
+  "15031": {
+    "type": "Stun",
+    "name": "Freezing Prison"
+  },
+  "15060": {
+    "type": "Stun",
+    "name": "Stupifying Blow"
+  },
+  "15160": {
+    "type": "Stun",
+    "name": "Blacksmith's Hammerstrike"
+  },
+  "21120": {
+    "type": "Stun",
+    "name": "Glyph of Sap"
+  },
+  "23155": {
+    "type": "Stun",
+    "name": "Glyph of Sap"
+  },
+  "26020": {
+    "type": "Stun",
+    "name": "Glyph of Sap"
+  },
+  "26090": {
+    "type": "Stun",
+    "name": "Glyph of Sap"
+  },
+  "82601": {
+    "type": "Stun",
+    "name": "Sanguine Snag"
+  },
+  "82609": {
+    "type": "Stun",
+    "name": ""
+  },
+  "100300": {
+    "type": "Stun",
+    "name": "Battle Cry"
+  },
+  "100301": {
+    "type": "Stun",
+    "name": "Delete_Battle Cry"
+  },
+  "100900": {
+    "type": "Stun",
+    "name": "Cascade of Stuns"
+  },
+  "100901": {
+    "type": "Stun",
+    "name": "Cascade of Stuns"
+  },
+  "101000": {
+    "type": "Stun",
+    "name": "Backstab"
+  },
+  "101001": {
+    "type": "Stun",
+    "name": "Backstab"
+  },
+  "101100": {
+    "type": "Stun",
+    "name": "Staggering Counter"
+  },
+  "101101": {
+    "type": "Stun",
+    "name": "Staggering Counter"
+  },
+  "200100": {
+    "type": "Stun",
+    "name": "Leash"
+  },
+  "200400": {
+    "type": "Stun",
+    "name": "Shield Bash"
+  },
+  "200800": {
+    "type": "Stun",
+    "name": "Shield Barrage"
+  },
+  "201400": {
+    "type": "Stun",
+    "name": "Chained Leash"
+  },
+  "201401": {
+    "type": "Stun",
+    "name": "Chained Leash"
+  },
+  "300200": {
+    "type": "Stun",
+    "name": "Backstabbed"
+  },
+  "300201": {
+    "type": "Stun",
+    "name": "Backstabbed"
+  },
+  "300400": {
+    "type": "Stun",
+    "name": "Startling Kick"
+  },
+  "300700": {
+    "type": "Stun",
+    "name": "Stunning Backhand"
+  },
+  "301000": {
+    "type": "Stun",
+    "name": "Measured Slice"
+  },
+  "301001": {
+    "type": "Stun",
+    "name": "Measured Slice"
+  },
+  "400200": {
+    "type": "Stun",
+    "name": "Staggered"
+  },
+  "400600": {
+    "type": "Stun",
+    "name": "Fearsome Shout"
+  },
+  "400601": {
+    "type": "Stun",
+    "name": "Fearsome Shout"
+  },
+  "400602": {
+    "type": "Stun",
+    "name": "Fearsome Shout"
+  },
+  "400603": {
+    "type": "Stun",
+    "name": "Fearsome Shout IV"
+  },
+  "400604": {
+    "type": "Stun",
+    "name": "Fearsome Shout V"
+  },
+  "400620": {
+    "type": "Stun",
+    "name": "Fearsome Shout"
+  },
+  "400621": {
+    "type": "Stun",
+    "name": "Fearsome Shout"
+  },
+  "400622": {
+    "type": "Stun",
+    "name": "Fearsome Shout"
+  },
+  "400623": {
+    "type": "Stun",
+    "name": "Fearsome Shout IV"
+  },
+  "400624": {
+    "type": "Stun",
+    "name": "Fearsome Shout V"
+  },
+  "457015": {
+    "type": "Stun",
+    "name": "Absorption"
+  },
+  "457019": {
+    "type": "Stun",
+    "name": "Akeron's Command"
+  },
+  "457025": {
+    "type": "Stun",
+    "name": "Not supposed to be shown"
+  },
+  "457026": {
+    "type": "Stun",
+    "name": "Not supposed to be shown"
+  },
+  "457027": {
+    "type": "Stun",
+    "name": "Not supposed to be shown"
+  },
+  "457046": {
+    "type": "Stun",
+    "name": "Slumbering"
+  },
+  "457049": {
+    "type": "Stun",
+    "name": "Pitch-Black Darkness"
+  },
+  "473650": {
+    "type": "Stun",
+    "name": "Transferred Terror"
+  },
+  "476106": {
+    "type": "Stun",
+    "name": "Electric Shock"
+  },
+  "476110": {
+    "type": "Stun",
+    "name": "Insanity"
+  },
+  "476112": {
+    "type": "Stun",
+    "name": "Failure"
+  },
+  "476226": {
+    "type": "Stun",
+    "name": "Saravash's Spirit"
+  },
+  "476302": {
+    "type": "Stun",
+    "name": "Blindlight"
+  },
+  "476602": {
+    "type": "Stun",
+    "name": "Shocking Electricity"
+  },
+  "476806": {
+    "type": "Stun",
+    "name": "Nexus Implosion!"
+  },
+  "476907": {
+    "type": "Stun",
+    "name": "Spiritual Breakdown"
+  },
+  "500800": {
+    "type": "Stun",
+    "name": "Mindblast"
+  },
+  "500801": {
+    "type": "Stun",
+    "name": "Mindblast"
+  },
+  "500802": {
+    "type": "Stun",
+    "name": "Mindblast"
+  },
+  "500900": {
+    "type": "Stun",
+    "name": "Nerve Exhaustion"
+  },
+  "501300": {
+    "type": "Stun",
+    "name": "Time Gyre"
+  },
+  "501301": {
+    "type": "Stun",
+    "name": "Time Gyre"
+  },
+  "501302": {
+    "type": "Stun",
+    "name": "Time Gyre"
+  },
+  "501303": {
+    "type": "Stun",
+    "name": "Time Gyre"
+  },
+  "501320": {
+    "type": "Stun",
+    "name": "Time Gyre"
+  },
+  "501321": {
+    "type": "Stun",
+    "name": "Time Gyre"
+  },
+  "501322": {
+    "type": "Stun",
+    "name": "Time Gyre"
+  },
+  "501323": {
+    "type": "Stun",
+    "name": "Time Gyre"
+  },
+  "600300": {
+    "type": "Stun",
+    "name": "Stunning Trap"
+  },
+  "600800": {
+    "type": "Stun",
+    "name": "Close Quarters"
+  },
+  "601200": {
+    "type": "Stun",
+    "name": "Concussion Trap"
+  },
+  "601201": {
+    "type": "Stun",
+    "name": "Concussion Trap"
+  },
+  "701100": {
+    "type": "Stun",
+    "name": "Sonorous Dreams"
+  },
+  "701101": {
+    "type": "Stun",
+    "name": "Sonorous Dreams"
+  },
+  "701300": {
+    "type": "Stun",
+    "name": "Curse of Confusion"
+  },
+  "701320": {
+    "type": "Stun",
+    "name": "Curse of Confusion"
+  },
+  "757015": {
+    "type": "Stun",
+    "name": "Absorption"
+  },
+  "757019": {
+    "type": "Stun",
+    "name": "Akeron's Command"
+  },
+  "757025": {
+    "type": "Stun",
+    "name": "Not supposed to be shown"
+  },
+  "757026": {
+    "type": "Stun",
+    "name": "Not supposed to be shown"
+  },
+  "757027": {
+    "type": "Stun",
+    "name": "Not supposed to be shown"
+  },
+  "757046": {
+    "type": "Stun",
+    "name": "Slumbering"
+  },
+  "757049": {
+    "type": "Stun",
+    "name": "Pitch-Black Darkness"
+  },
+  "776013": {
+    "type": "Stun",
+    "name": "Ship's Bomb"
+  },
+  "777037": {
+    "type": "Stun",
+    "name": "Demokron’s Token"
+  },
+  "801200": {
+    "type": "Stun",
+    "name": "Ishara's Lullaby"
+  },
+  "801201": {
+    "type": "Stun",
+    "name": "Ishara's Lullaby"
+  },
+  "801202": {
+    "type": "Stun",
+    "name": "Ishara's Lullaby"
+  },
+  "801901": {
+    "type": "Stun",
+    "name": "Zenobia's Vortex"
+  },
+  "802000": {
+    "type": "Stun",
+    "name": "Divine Intervention"
+  },
+  "808101": {
+    "type": "Stun",
+    "name": "Panic"
+  },
+  "808102": {
+    "type": "Stun",
+    "name": "Counter"
+  },
+  "905426": {
+    "type": "Stun",
+    "name": "Primal Fear"
+  },
+  "975032": {
+    "type": "Stun",
+    "name": "Living Bomb Blast"
+  },
+  "988573": {
+    "type": "Stun",
+    "name": "Insanity"
+  },
+  "988575": {
+    "type": "Stun",
+    "name": "Failure"
+  },
+  "988576": {
+    "type": "Stun",
+    "name": "Torpor"
+  },
+  "988583": {
+    "type": "Stun",
+    "name": "Suryati's Curse_Waiting(Weaken)"
+  },
+  "988585": {
+    "type": "Stun",
+    "name": "Suryati's Curse_Waiting(Confuse)"
+  },
+  "9810011": {
+    "type": "Stun",
+    "name": "Lakan's Wrath"
+  },
+  "9810018": {
+    "type": "Stun",
+    "name": ""
+  },
+  "10151033": {
+    "type": "Stun",
+    "name": "Entrapped"
+  },
+  "10151050": {
+    "type": "Stun",
+    "name": "Pendulum Struck"
+  },
+  "10151060": {
+    "type": "Stun",
+    "name": "Cabled"
+  },
+  "10151070": {
+    "type": "Stun",
+    "name": "Spirit Gallows"
+  },
+  "10151071": {
+    "type": "Stun",
+    "name": "Fall"
+  },
+  "10151073": {
+    "type": "Stun",
+    "name": "Spirit Gallows_Invisible Effect"
+  },
+  "10151074": {
+    "type": "Stun",
+    "name": "Stay of Execution"
+  },
+  "10151080": {
+    "type": "Stun",
+    "name": "Smote"
+  },
+  "10151091": {
+    "type": "Stun",
+    "name": "Reduced healing in Veil of Shadows"
+  },
+  "10151130": {
+    "type": "Stun",
+    "name": "Disable Ankle"
+  },
+  "10152020": {
+    "type": "Stun",
+    "name": "Electric Shock"
+  },
+  "10152021": {
+    "type": "Stun",
+    "name": "Electric Shock"
+  },
+  "10152030": {
+    "type": "Stun",
+    "name": "WHUMP!"
+  },
+  "10152031": {
+    "type": "Stun",
+    "name": "WHUMP!"
+  },
+  "10152230": {
+    "type": "Stun",
+    "name": "Electric Shock"
+  },
+  "10152231": {
+    "type": "Stun",
+    "name": "Electric Shock"
+  },
+  "44300007": {
+    "type": "Stun",
+    "name": "Plague"
+  },
+  "44300010": {
+    "type": "Stun",
+    "name": "Plague"
+  },
+  "44300020": {
+    "type": "Stun",
+    "name": "Impending Death"
+  },
+  "44300022": {
+    "type": "Stun",
+    "name": "Sticky Mucus"
+  },
+  "44300031": {
+    "type": "Stun",
+    "name": "Dizzying Slam"
+  },
+  "44300034": {
+    "type": "Stun",
+    "name": "Plague Immunity Potion"
+  },
+  "44300037": {
+    "type": "Stun",
+    "name": "Plague Immunity Potion"
+  },
+  "44300043": {
+    "type": "Stun",
+    "name": "Tonguelashing"
+  },
+  "44300044": {
+    "type": "Stun",
+    "name": "Internal Wounds"
+  },
+  "44300047": {
+    "type": "Stun",
+    "name": "Confuzzled"
+  },
+  "45000001": {
+    "type": "Stun",
+    "name": "Entangle"
+  },
+  "45000005": {
+    "type": "Stun",
+    "name": "Zzzap"
+  },
+  "45000023": {
+    "type": "Stun",
+    "name": "Leash"
+  },
+  "45000025": {
+    "type": "Stun",
+    "name": "Berserker's Cry"
+  },
+  "47300400": {
+    "type": "Stun",
+    "name": "Hellfire of Pain"
+  },
+  "47300500": {
+    "type": "Stun",
+    "name": "Time of Silence"
+  },
+  "47500300": {
+    "type": "Stun",
+    "name": "Incapacitation"
+  },
+  "47501200": {
+    "type": "Stun",
+    "name": "Wrath of Kelsaik"
+  },
+  "47600400": {
+    "type": "Stun",
+    "name": "Curse of Pain"
+  },
+  "47600500": {
+    "type": "Stun",
+    "name": "Pain of Restraint"
+  },
+  "47610200": {
+    "type": "Stun",
+    "name": "Bedlam"
+  },
+  "47610400": {
+    "type": "Stun",
+    "name": "Incapacitation"
+  },
+  "47610500": {
+    "type": "Stun",
+    "name": "Brutal Blow"
+  },
+  "47610600": {
+    "type": "Stun",
+    "name": "Lightning Rod"
+  },
+  "47610700": {
+    "type": "Stun",
+    "name": "Torpor Point"
+  },
+  "47611010": {
+    "type": "Stun",
+    "name": "Impending Insanity"
+  },
+  "47611210": {
+    "type": "Stun",
+    "name": "Impending Failure"
+  },
+  "47621200": {
+    "type": "Stun",
+    "name": "Orcan Loyalty"
+  },
+  "47621300": {
+    "type": "Stun",
+    "name": "Horde's Howl"
+  },
+  "47630200": {
+    "type": "Stun",
+    "name": "Eyestriker"
+  },
+  "47660200": {
+    "type": "Stun",
+    "name": "Shocking Source"
+  },
+  "47660300": {
+    "type": "Stun",
+    "name": "Zzzap"
+  },
+  "47661900": {
+    "type": "Stun",
+    "name": "Cursed Jar"
+  },
+  "47662300": {
+    "type": "Stun",
+    "name": "Darkness I"
+  },
+  "47662400": {
+    "type": "Stun",
+    "name": "Stun for Leash"
+  },
+  "47662500": {
+    "type": "Stun",
+    "name": "Motherly Sadness"
+  },
+  "47671000": {
+    "type": "Stun",
+    "name": "Enervated"
+  },
+  "47690000": {
+    "type": "Stun",
+    "name": "Ultrasonic Impact"
+  },
+  "47690400": {
+    "type": "Stun",
+    "name": "Energy Drain"
+  },
+  "47690500": {
+    "type": "Stun",
+    "name": "Electric Jolt"
+  },
+  "47690800": {
+    "type": "Stun",
+    "name": "Depth's Glare"
+  },
+  "47690900": {
+    "type": "Stun",
+    "name": "Depth's Grip"
+  },
+  "47700200": {
+    "type": "Stun",
+    "name": "Destruction of the Strong"
+  },
+  "47700300": {
+    "type": "Stun",
+    "name": "Destruction of the Weak"
+  },
+  "47702700": {
+    "type": "Stun",
+    "name": "Cower in Her Presence"
+  },
+  "47703500": {
+    "type": "Stun",
+    "name": "Queen's Binding"
+  },
+  "49400700": {
+    "type": "Stun",
+    "name": "Lose Fighting Will"
+  },
+  "49400710": {
+    "type": "Stun",
+    "name": "Dispersion Beam"
+  },
+  "60950513": {
+    "type": "Stun",
+    "name": "Fear Bomb"
+  },
+  "74300020": {
+    "type": "Stun",
+    "name": "Impending Death"
+  },
+  "74300047": {
+    "type": "Stun",
+    "name": "Confuzzled"
+  },
+  "77600007": {
+    "type": "Stun",
+    "name": "General Paralysis"
+  },
+  "77600013": {
+    "type": "Stun",
+    "name": "Attached Bomb"
+  },
+  "77700011": {
+    "type": "Stun",
+    "name": "Channelworks Water"
+  },
+  "77700012": {
+    "type": "Stun",
+    "name": "Smuggla's Curse"
+  },
+  "77703408": {
+    "type": "Stun",
+    "name": "Stun"
+  },
+  "77703409": {
+    "type": "Stun",
+    "name": "Immune to Disarming"
+  },
+  "77703417": {
+    "type": "Stun",
+    "name": "Crippling Impact"
+  },
+  "77703420": {
+    "type": "Stun",
+    "name": ""
+  },
+  "77703432": {
+    "type": "Stun",
+    "name": "Demokron Mutation"
+  },
+  "77703438": {
+    "type": "Stun",
+    "name": "Electrical Discharge"
+  },
+  "80900002": {
+    "type": "Stun",
+    "name": "Cacophonous Slash"
+  },
+  "90048060": {
+    "type": "Stun",
+    "name": "Stun"
+  },
+  "91600003": {
+    "type": "Stun",
+    "name": "Gripped by Fear"
+  },
+  "91600008": {
+    "type": "Stun",
+    "name": "Darkan's Scolding"
+  },
+  "97501200": {
+    "type": "Stun",
+    "name": "Wrath of Kelsaik"
+  },
+  "97502400": {
+    "type": "Stun",
+    "name": "Enslavement"
+  },
+  "97502800": {
+    "type": "Stun",
+    "name": "Kaia's Camaraderie"
+  },
+  "98000006": {
+    "type": "Stun",
+    "name": "monkey 2 summon check"
+  },
+  "98000018": {
+    "type": "Stun",
+    "name": "Ardentmaw's Growl"
+  },
+  "98000031": {
+    "type": "Stun",
+    "name": "deleting aggro"
+  },
+  "98000084": {
+    "type": "Stun",
+    "name": "Kelsaik Ice necklace effect application interference"
+  },
+  "98000093": {
+    "type": "Stun",
+    "name": "0.1 sec stun"
+  },
+  "98850022": {
+    "type": "Stun",
+    "name": ""
+  },
+  "98850025": {
+    "type": "Stun",
+    "name": "Stun"
+  },
+  "98850039": {
+    "type": "Stun",
+    "name": "Silence"
+  },
+  "98850055": {
+    "type": "Stun",
+    "name": "Sleep"
+  },
+  "98850056": {
+    "type": "Stun",
+    "name": "Chaos"
+  },
+  "99000000": {
+    "type": "Stun",
+    "name": "Stun"
+  },
+  "99000010": {
+    "type": "Stun",
+    "name": "Stun"
+  },
+  "99000020": {
+    "type": "Stun",
+    "name": "Stun"
+  },
+  "99000030": {
+    "type": "Stun",
+    "name": "Stun"
+  },
+  "99000040": {
+    "type": "Stun",
+    "name": "Stun"
+  },
+  "99000050": {
+    "type": "Stun",
+    "name": "Stun"
+  },
+  "99000060": {
+    "type": "Stun",
+    "name": "Stun"
+  },
+  "99000070": {
+    "type": "Stun",
+    "name": "Stun"
+  },
+  "99001100": {
+    "type": "Stun",
+    "name": "Chaos"
+  },
+  "99001110": {
+    "type": "Stun",
+    "name": "Chaos"
+  },
+  "99001120": {
+    "type": "Stun",
+    "name": "Chaos"
+  },
+  "99001130": {
+    "type": "Stun",
+    "name": "Chaos"
+  },
+  "99001140": {
+    "type": "Stun",
+    "name": "Chaos"
+  },
+  "99001150": {
+    "type": "Stun",
+    "name": "Chaos"
+  },
+  "99001160": {
+    "type": "Stun",
+    "name": "Chaos"
+  },
+  "99001170": {
+    "type": "Stun",
+    "name": "Chaos"
+  },
+  "99001280": {
+    "type": "Stun",
+    "name": "Electric Shock"
+  },
+  "99001900": {
+    "type": "Stun",
+    "name": "Sleep"
+  },
+  "99001910": {
+    "type": "Stun",
+    "name": "Sleep"
+  },
+  "99001920": {
+    "type": "Stun",
+    "name": "Sleep"
+  },
+  "99001930": {
+    "type": "Stun",
+    "name": "Sleep"
+  },
+  "99001940": {
+    "type": "Stun",
+    "name": "Sleep"
+  },
+  "99001950": {
+    "type": "Stun",
+    "name": "Sleep"
+  },
+  "99001960": {
+    "type": "Stun",
+    "name": "Sleep"
+  },
+  "99001970": {
+    "type": "Stun",
+    "name": "Sleep"
+  },
+  "99002400": {
+    "type": "Stun",
+    "name": "Enervate I"
+  },
+  "99002410": {
+    "type": "Stun",
+    "name": "Enervate II"
+  },
+  "99002420": {
+    "type": "Stun",
+    "name": "Enervate III"
+  },
+  "99002430": {
+    "type": "Stun",
+    "name": "Enervate IV"
+  },
+  "99002440": {
+    "type": "Stun",
+    "name": "Enervate V"
+  },
+  "99002450": {
+    "type": "Stun",
+    "name": "Enervate VI"
+  },
+  "99002460": {
+    "type": "Stun",
+    "name": "Enervate VII"
+  },
+  "99002470": {
+    "type": "Stun",
+    "name": "Enervate VIII"
+  },
+  "99010000": {
+    "type": "Stun",
+    "name": "Transform into Cannon"
+  },
+  "999009810": {
+    "type": "Stun",
+    "name": "Pollutant"
+  }
+}

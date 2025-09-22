@@ -1,13 +1,14 @@
 {
     "files": {
         "README.md": "d3ae28000bf022f60910c6fe53bd975904f27c7e49a77f429e298be1f4d84e31",
+        "abnormals.json": "2bf55385f6d7c5684368908484073fc562afa83fcd1a81056e4320a2ac2c3956",
         "config.json": {
             "overwrite": false,
             "hash": "45071a5610031cda1a6573bd4848044fdbc65646dffedad0e70cb8f8576a60a1"
         },
-        "index.js": "4720f33aeaf46c68ed0fcdf8e537af6b44b3dceebc28f597303b8c9d284a5ef6",
+        "index.js": "13f2682d4a20234c3e1a2851046cd0d7d2326413ba1c9af9b20d7c3475f60501",
         "module.json": "812f242baefff925d469b911f2ea0084cc0952f225c72d19a27181c19f86bf29",
-        "skills.json": "560163e3763602cacfe841681c65a87bafc4b9fd0da6253c6a8d0f3f77fcca30"
+        "skills.json": "78f521d4ad0588d9cc7407a6e3f07b198defe7d42f44c88fcc0762f857702139"
     },
     "defs": {
         "C_NOTIFY_LOCATION_IN_ACTION": "*",
@@ -19,8 +20,12 @@
         "C_START_INSTANCE_SKILL_EX": "raw",
         "C_START_SKILL": "raw",
         "C_START_TARGETED_SKILL": "raw",
+        "S_ABNORMALITY_BEGIN": "*",
+        "S_ABNORMALITY_END": "*",
+        "S_ABNORMALITY_REFRESH": "*",
         "S_ACTION_END": "*",
         "S_ACTION_STAGE": "*",
+        "S_EACH_SKILL_RESULT": "*",
         "S_INSTANT_DASH": "*",
         "S_INSTANT_MOVE": "*",
         "S_LOAD_TOPO": "event",
