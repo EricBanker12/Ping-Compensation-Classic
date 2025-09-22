@@ -8,11 +8,11 @@ const DISABLED_SKILL_TYPES = ["catchBack", "shortTel", "positionswap", "inversec
 class PingCompensation {
     constructor(mod) {
         this.skills = require("./skills.json")
+        this.abnormals = require("./abnormals.json")
         this.config = require("./config.json")
 
         this.mod = mod
         this.hooks = []
-        this.abnormals = new Set()
 
         this.debugging = false
         this.enabled = true
@@ -38,6 +38,9 @@ class PingCompensation {
         this.actionEndTime = null
         this.actionEndTimer = null
         this.sendingActionEnd = false
+
+        this.activeAbnormals = {}
+        this.sendingAbnormalityEnd = false
 
         this.retryCountSetting = this.config?.Settings?.RetryCount ?? 2
         this.retryTimeoutSetting = this.config?.Settings?.RetryTimeout ?? 100
@@ -66,6 +69,10 @@ class PingCompensation {
         this.ActionEndHandler = this.ActionEndHandler.bind(this)
         this.ReactionHandler = this.ReactionHandler.bind(this)
         this.StartCooltimeSkillHandler = this.StartCooltimeSkillHandler.bind(this)
+
+        this.AbnormalityBeginHandler = this.AbnormalityBeginHandler.bind(this)
+        this.AbnormalityEndHandler = this.AbnormalityEndHandler.bind(this)
+        this.SendAbnormalityEnd = this.SendAbnormalityEnd.bind(this)
 
         // helper methods
         this.UpdateLocation = this.UpdateLocation.bind(this)
@@ -130,6 +137,10 @@ class PingCompensation {
         this.hooks.push(this.mod.hook("S_RESPONSE_GAMESTAT_PONG", "event", { order: 1, filter: { silenced: null } }, this.PingResponseHandler))
 
         this.hooks.push(this.mod.hook("S_EACH_SKILL_RESULT", "*", this.ReactionHandler))
+
+        this.hooks.push(this.mod.hook("S_ABNORMALITY_BEGIN", "*", { order: 1 }, this.AbnormalityBeginHandler))
+        this.hooks.push(this.mod.hook("S_ABNORMALITY_REFRESH", "*", { order: 1 }, this.AbnormalityBeginHandler))
+        this.hooks.push(this.mod.hook("S_ABNORMALITY_END", "*", { order: 1, filter: { fake: null } }, this.AbnormalityEndHandler))
 
         this.hooks.push(this.mod.hook("S_ACTION_STAGE", "*", { order: 1 }, this.ActionStageHandler))
         this.hooks.push(this.mod.hook("S_ACTION_END", "*", { order: 1, filter: { fake: null } }, this.ActionEndHandler))
@@ -200,9 +211,8 @@ class PingCompensation {
     }
 
     PingFakeRequestHandler() {
-        // hook skill prediction pings instead of sending our own pings.
-        if (!this.skillPrediction && this.pingWaiting && Date.now() - this.pingTime < this.pingIntervalSetting) {
-            this.skillPrediction = true
+        // hook other mod's pings instead of sending our own pings.
+        if (this.pingWaiting && Date.now() - this.pingTime < this.pingIntervalSetting) {
             this.StopPingTimer()
         }
 
@@ -370,12 +380,76 @@ class PingCompensation {
         }
     }
 
+    SendAbnormalityEnd(id) {
+        if (this.activeAbnormals[id]) {
+            this.activeAbnormals[id].timer = null
+            this.sendingAbnormalityEnd = true
+            this.mod.send("S_ABNORMALITY_END", "*", {
+                target: this.mod.game.me.gameId,
+                id
+            })
+        }
+    }
+
+    AbnormalityBeginHandler(event) {
+        if (!this.skillPrediction && this.mod.game.me.is(event.target)) {
+            if (this.abnormals?.[event.id] && event.duration > 0) {
+                const { type, name } = this.abnormals[event.id]
+                const fixedDuration = Math.max(event.duration - this.pingMin + this.pingOffsetSetting, 0)
+
+                this.activeAbnormals[event.id] = {
+                    name,
+                    type,
+                    time: Date.now() + event.duration,
+                    timer: this.mod.setTimeout(this.SendAbnormalityEnd, fixedDuration, [event.id]),
+                }
+
+                if (this.debugging) {
+                    this.mod.log(`Abnormality Start [${type}] "${name}" (${event.id}).`)
+                    this.mod.log(`Reduced duration from ${event.duration} ms to ${fixedDuration} ms.`)
+                }
+
+                event.duration = fixedDuration
+                return true
+            }
+        }
+    }
+
+    AbnormalityEndHandler(event) {
+        if (this.mod.game.me.is(event.target)) {
+            if (this.sendingAbnormalityEnd && this.activeAbnormals[event.id]) {
+                this.sendingAbnormalityEnd = false
+                const { type, name } = this.activeAbnormals[event.id]
+
+                if (this.debugging) {
+                    this.mod.log(`Fake Abnormality Ended [${type}] "${name}" (${event.id}).`)
+                }
+            }
+            else if (this.activeAbnormals[event.id]) {
+                const { type, name, time, timer } = this.activeAbnormals[event.id]
+
+                if (this.debugging) {
+                    this.mod.log(`Real Abnormality Ended [${type}] "${name}" (${event.id}).`)
+                }
+
+                delete this.activeAbnormals[event.id]
+
+                if (timer) {
+                    this.mod.clearTimeout(timer)
+                }
+                else {
+                    return false
+                }
+            }
+        }
+    }
+
     ReactionHandler(event) {
         if (this.mod.game.me.is(event.target) && event.reaction && event.reaction.enable) {
             this.CancelRetry()
             const templateId = this.mod.game.me.templateId
             const skillId = event.reaction.skill.id
-            if (this.skills?.[templateId]?.[skillId]) {
+            if (this.skills?.[templateId]?.[skillId] && !this.skillPrediction) {
                 let { name, dcType, length, distance } = this.skills[templateId][skillId]
 
                 if (this.debugging) {
@@ -386,27 +460,23 @@ class PingCompensation {
                 if (dcType == "reaction") {
                     // sometimes server gives custom length and distance
                     if (event.reaction.animSeq && event.reaction.animSeq.length > 0) {
-                        length = event.reaction.animSeq.reduce((a,b) => {
-                            const durA = a.duration
-                            const durB = b.duration
-                            if (durA == -1) durA = 0
-                            if (durB == -1) durB = 0
-                            return durA + durB
+                        length = event.reaction.animSeq.map(a => a.duration).reduce((a, b) => {
+                            if (a == -1) a = 0
+                            if (b == -1) b = 0
+                            return a + b
                         })
-                        
+
                         const backwards = distance < 0
-                        distance = event.reaction.animSeq.reduce((a,b) => {
-                            const distA = a.distance
-                            const distB = b.distance
-                            if (distA == -1) distA = 0
-                            if (distB == -1) distB = 0
-                            return distA + distB
+                        distance = event.reaction.animSeq.map(a => a.distance).reduce((a, b) => {
+                            if (a == -1) a = 0
+                            if (b == -1) b = 0
+                            return a + b
                         })
                         if (backwards) {
                             distance *= -1
                         }
                     }
-                    
+
                     const fixedLength = Math.max(length - this.pingMin + this.pingOffsetSetting, 20)
                     const fixedSpeedMult = length / fixedLength
 
@@ -432,10 +502,9 @@ class PingCompensation {
                         }
                     }
 
-                    this.actionEndSpeed = 1.0
-                    this.actionEndTime = Date.now() + Math.round(length)
-                    
                     if (this.debugging) {
+                        this.actionEndSpeed = 1.0
+                        this.actionEndTime = Date.now() + Math.round(length)
                         this.mod.log(`Reduced length from ${Math.round(length)} ms to ${Math.round(fixedLength)} ms.`)
                     }
 
@@ -480,7 +549,7 @@ class PingCompensation {
             else if (this.actionEnd && this.actionEnd.id == event.id) {
                 if (this.debugging) {
                     this.mod.log(`Real Action Ended "${this.actionName}" (${event.skill.id}).`)
-                    const lengthDiff = (Date.now() - this.actionEndTime) * this.actionEndSpeed
+                    const lengthDiff = Math.round((Date.now() - this.actionEndTime) * this.actionEndSpeed)
                     if (lengthDiff > 50 || lengthDiff < -50) {
                         this.mod.error(`Expected length differed by ${lengthDiff} ms.`)
                     }
@@ -538,35 +607,46 @@ class PingCompensation {
                     this.actionName = name
                 }
 
-                if (dcType == "reaction" || this.config?.[className]?.[skillBase]?.[skillSub]
+                if ((dcType == "reaction" && !this.skillPrediction)
+                    || this.config?.[className]?.[skillBase]?.[skillSub]
                     && !DISABLED_SKILL_TYPES.includes(dcType)
                     && length > 0 && event.speed > 0
                 ) {
                     length = length / event.speed
-                    
+
                     // sometimes server gives custom length and distance
                     if (event.animSeq && event.animSeq.length > 0) {
-                        length = event.animSeq.reduce((a,b) => {
-                            const durA = a.duration
-                            const durB = b.duration
-                            if (durA == -1) durA = 0
-                            if (durB == -1) durB = 0
-                            return durA + durB
+                        length = event.animSeq.map(a => a.duration).reduce((a, b) => {
+                            if (a == -1) a = 0
+                            if (b == -1) b = 0
+                            return a + b
                         })
-                        
+
                         const backwards = distance < 0
-                        distance = event.animSeq.reduce((a,b) => {
-                            const distA = a.distance
-                            const distB = b.distance
-                            if (distA == -1) distA = 0
-                            if (distB == -1) distB = 0
-                            return distA + distB
+                        distance = event.animSeq.map(a => a.distance).reduce((a, b) => {
+                            if (a == -1) a = 0
+                            if (b == -1) b = 0
+                            return a + b
                         })
                         if (backwards) {
                             distance *= -1
                         }
                     }
-                    
+
+                    // for stuns, length is determined by abnormality
+                    // we need to get the longest abnormal, in-case we have overlapping stuns
+                    if (name == "Stun") {
+                        let now = Date.now()
+                        let longestTime = now
+                        for (let abnormalId in this.activeAbnormals) {
+                            const abnormal = this.activeAbnormals[abnormalId]
+                            if (abnormal.type == "Stun" && abnormal.time > longestTime) {
+                                longestTime = abnormal.time
+                            }
+                        }
+                        length = longestTime - now
+                    }
+
                     const fixedLength = Math.max(length - this.pingMin + this.pingOffsetSetting, 20)
                     const fixedSpeedMult = length / fixedLength
                     event.speed *= fixedSpeedMult
@@ -578,7 +658,7 @@ class PingCompensation {
                             anim.zRate *= fixedSpeedMult
                         }
                     }
-                    
+
                     // Only set action end from first action stage
                     if (this.actionEndTimer) {
                         if (this.actionEnd && this.actionEnd.id == event.id) {
@@ -593,8 +673,13 @@ class PingCompensation {
                         }
                     }
 
-                    this.actionEndSpeed = event.speed / fixedSpeedMult
-                    this.actionEndTime = Date.now() + Math.round(length)
+                    if (this.debugging) {
+                        this.actionEndSpeed = event.speed / fixedSpeedMult
+                        this.actionEndTime = Date.now() + Math.round(length)
+                        if (name != "Stun") {
+                            this.mod.log(`Reduced length from ${Math.round(length)} ms to ${Math.round(fixedLength)} ms.`)
+                        }
+                    }
 
                     this.actionEnd = {
                         gameId: event.gameId,
@@ -610,10 +695,6 @@ class PingCompensation {
                         const dx = distance * Math.cos(event.w)
                         const dy = distance * Math.sin(event.w)
                         this.actionEnd.loc = event.loc.addN(dx, dy, 0)
-                    }
-                    
-                    if (this.debugging) {
-                        this.mod.log(`Reduced length from ${Math.round(length)} ms to ${Math.round(fixedLength)} ms.`)
                     }
 
                     this.actionEndTimer = this.mod.setTimeout(this.SendActionEnd, fixedLength)

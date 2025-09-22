@@ -1732,7 +1732,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "10102": {
@@ -2946,7 +2946,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "10103": {
@@ -4082,7 +4082,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "10104": {
@@ -6088,7 +6088,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "10105": {
@@ -7788,7 +7788,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "10106": {
@@ -10052,7 +10052,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "10107": {
@@ -12118,7 +12118,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "10108": {
@@ -13788,7 +13788,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "10201": {
@@ -15524,7 +15524,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "10202": {
@@ -16738,7 +16738,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "10203": {
@@ -17874,7 +17874,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "10204": {
@@ -19880,7 +19880,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "10205": {
@@ -21580,7 +21580,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "10206": {
@@ -23844,7 +23844,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "10207": {
@@ -25910,7 +25910,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "10208": {
@@ -27580,7 +27580,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "10301": {
@@ -29316,7 +29316,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "10302": {
@@ -30530,7 +30530,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "10303": {
@@ -31666,7 +31666,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "10304": {
@@ -33672,7 +33672,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "10305": {
@@ -35372,7 +35372,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "10306": {
@@ -37636,7 +37636,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "10307": {
@@ -39702,7 +39702,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "10308": {
@@ -41372,7 +41372,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "10401": {
@@ -43108,7 +43108,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "10402": {
@@ -44322,7 +44322,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "10403": {
@@ -45458,7 +45458,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "10404": {
@@ -47464,7 +47464,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "10405": {
@@ -49164,7 +49164,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "10406": {
@@ -51428,7 +51428,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "10407": {
@@ -53494,7 +53494,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "10408": {
@@ -55164,7 +55164,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "10410": {
@@ -60916,7 +60916,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "10502": {
@@ -62130,7 +62130,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "10503": {
@@ -63266,7 +63266,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "10504": {
@@ -65272,7 +65272,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "10505": {
@@ -66972,7 +66972,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "10506": {
@@ -69236,7 +69236,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "10507": {
@@ -71302,7 +71302,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "10508": {
@@ -72972,7 +72972,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "10601": {
@@ -74708,7 +74708,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "10602": {
@@ -75922,7 +75922,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "10603": {
@@ -77058,7 +77058,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "10604": {
@@ -79064,7 +79064,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "10605": {
@@ -80764,7 +80764,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "10606": {
@@ -83028,7 +83028,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "10607": {
@@ -85094,7 +85094,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "10608": {
@@ -86764,7 +86764,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "10701": {
@@ -88500,7 +88500,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "10702": {
@@ -89714,7 +89714,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "10703": {
@@ -90850,7 +90850,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "10704": {
@@ -92856,7 +92856,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "10705": {
@@ -94556,7 +94556,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "10706": {
@@ -96820,7 +96820,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "10707": {
@@ -98886,7 +98886,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "10708": {
@@ -100556,7 +100556,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "10801": {
@@ -102292,7 +102292,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "10802": {
@@ -103506,7 +103506,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "10803": {
@@ -104642,7 +104642,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "10804": {
@@ -106648,7 +106648,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "10805": {
@@ -108348,7 +108348,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "10806": {
@@ -110612,7 +110612,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "10807": {
@@ -112678,7 +112678,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "10808": {
@@ -114348,7 +114348,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "10810": {
@@ -120100,7 +120100,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "10902": {
@@ -121314,7 +121314,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "10903": {
@@ -122450,7 +122450,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "10904": {
@@ -124456,7 +124456,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "10905": {
@@ -126156,7 +126156,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "10906": {
@@ -128420,7 +128420,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "10907": {
@@ -130486,7 +130486,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "10908": {
@@ -132156,7 +132156,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "11001": {
@@ -133892,7 +133892,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "11002": {
@@ -135106,7 +135106,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "11003": {
@@ -136242,7 +136242,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "11004": {
@@ -138248,7 +138248,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "11005": {
@@ -139948,7 +139948,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "11006": {
@@ -142212,7 +142212,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "11007": {
@@ -144242,7 +144242,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "11008": {
@@ -145912,7 +145912,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "11009": {
@@ -148238,7 +148238,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "11102": {
@@ -149452,7 +149452,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "11103": {
@@ -150588,7 +150588,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "11104": {
@@ -152594,7 +152594,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "11105": {
@@ -154294,7 +154294,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "11106": {
@@ -156558,7 +156558,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "11107": {
@@ -158624,7 +158624,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   },
   "11108": {
@@ -160294,7 +160294,7 @@
       "dcType": "reaction",
       "distance": 0,
       "length": 1000,
-      "name": "Knockup"
+      "name": "Stun"
     }
   }
 }
